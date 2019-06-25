@@ -1,7 +1,9 @@
 function takeANumber (katzDeliLine){
-  let newArr = []
-  newArr.push()
-  return "Welcome. You are number " + katzDeliLine.length 
+  counter = 0;
+  counter += 1
+  
+  
+return "Welcome, you are" counter 
 }
 
 
