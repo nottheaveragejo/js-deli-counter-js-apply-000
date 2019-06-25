@@ -1,9 +1,9 @@
+var total = 0;
+
 function takeANumber (katzDeliLine){
-  counter = 0;
-  counter += 1
-  
-  
-return "Welcome, you are" counter 
+  total += 1;
+  katzDeliLine.push(total);
+  return "Welcome, you are" + total; 
 }
 
 
