@@ -1,6 +1,7 @@
-function takeANumber (katzDeliLine, name){
-  katzDeliLine.push(name)
-  return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
+function takeANumber (katzDeliLine){
+  let newArr = []
+  newArr.push()
+  return "Welcome. You are number " + katzDeliLine.length 
 }
 
 
