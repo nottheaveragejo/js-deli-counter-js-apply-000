@@ -27,8 +27,9 @@ if(katzDeliLine.length === 0){
   return "There is nobody waiting to be served!"
 }
   else{
-   return katzDeliLine[0];
-   katzDeliLine.shift[0] ;
+  let x = katzDeliLine[0];
+  katzDeliLine.slice[0,1]
+  return x
   }
 }
 
